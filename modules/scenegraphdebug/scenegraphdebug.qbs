@@ -78,11 +78,12 @@ Module {
 			}
 		}
 
-		console.info('Running with the environment:')
+		console.info('Running with the debug environment')
 
 		enableFeature('logStats', 'QSG_RENDERER_DEBUG', 'render')
 		enableFeature('logInfo', 'QSG_INFO', 1)
 		enableFeature('colorizeAtlasTextures', 'QSG_ATLAS_OVERLAY', 1)
 		enableFeature('logTiming', 'QSG_RENDER_TIMING', 1)
-		enableFeature('visualize', 'QSG_VISUALIZE') }
+		enableFeature('visualize', 'QSG_VISUALIZE')
+	}
 }
