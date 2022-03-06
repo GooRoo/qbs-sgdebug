@@ -1,5 +1,7 @@
 # qbs-sgdebug
 
+![Made by Ukrainian](https://img.shields.io/static/v1?label=Made%20by&message=Ukrainian&labelColor=1f5fb2&color=fad247&style=for-the-badge)
+
 This Qbs module allows you to debug your Qt Quick Scene Graph's default renderer with ease. It doesn't do any kind of magic—just sets some of the environment variables before you run your app with `qbs run`. I was too tired of doing this manually in my terminal over and over again.
 
 For more information on the theory and techniques, please, refer to the [Qt Quick Scene Graph Default Renderer](https://doc.qt.io/qt-5/qtquick-visualcanvas-scenegraph-renderer.html).
